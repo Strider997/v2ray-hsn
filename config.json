@@ -1,0 +1,23 @@
+{
+  "inbounds": [{
+    "port": 10000,
+    "listen": "0.0.0.0",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "cebe8014-49dc-4bb1-89b9-bfe705ae682c",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/freehsn"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
